@@ -1,1 +1,1 @@
-pip3 freeze > requirements.txt
+web: gunicorn greeting:app
